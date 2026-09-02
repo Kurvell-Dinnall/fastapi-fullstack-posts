@@ -1,0 +1,19 @@
+[project]
+name = "fastapi-fullstack-posts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "kurvell", email = "znac489.live.rhul.ac.uk" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+]
+
+[project.scripts]
+fastapi-fullstack-posts = "fastapi_fullstack_posts:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
